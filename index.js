@@ -26,4 +26,11 @@ function writeCards(arrayOfNames, eventName) {
         return arrayOfCreatedMessages;
 }
 
+function countDown(positiveInt) {
+    while (positiveInt >= 0) {
+        console.log(positiveInt);
+        positiveInt--;
+    }
+}
+
 
